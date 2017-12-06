@@ -1,5 +1,7 @@
 # Android中TabLayout添加小红点
 
+![效果图](https://github.com/linglongxin24/TablayoutRedDot/blob/master/screenshot/device-2017-12-06-091225.png)
+
 ## 1.主布局文件
 
  ```xml
@@ -127,4 +129,4 @@ public class MainActivity extends AppCompatActivity {
 }
 
 ```
-## 4.GitHub
+## 4.[GitHub](https://github.com/linglongxin24/TablayoutRedDot)
