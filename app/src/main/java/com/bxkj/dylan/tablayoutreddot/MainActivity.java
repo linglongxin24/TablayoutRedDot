@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
         TabLayout.Tab tab = tabLayout.newTab().setText("全部");
         tabLayout.addTab(tab);
 
+        //待付款栏目-加载自定义显示小红点的布局
         tab = tabLayout.newTab();
         tab.setCustomView(R.layout.tab_wait_for_pay);
         tv_tab_title = tab.getCustomView().findViewById(R.id.tv_tab_title);
@@ -45,10 +46,11 @@ public class MainActivity extends AppCompatActivity {
         tab = tabLayout.newTab().setText("已取消");
         tabLayout.addTab(tab);
 
-        //添加监听
+        //添加tabLayout选中监听
         tabLayout.addOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
             @Override
             public void onTabSelected(TabLayout.Tab tab) {
+                //设置选中时的文字颜色
                 if (tab.getCustomView() != null) {
                     tv_tab_title.setTextColor(getResources().getColor(R.color.colorAccent));
                 }
@@ -56,6 +58,7 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onTabUnselected(TabLayout.Tab tab) {
+                //设置未选中时的文字颜色
                 if (tab.getCustomView() != null) {
                     tv_tab_title.setTextColor(getResources().getColor(R.color.colorBlack));
                 }
