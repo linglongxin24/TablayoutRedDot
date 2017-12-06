@@ -1,7 +1,7 @@
 # Android中TabLayout添加小红点
 
 <div  align="center">    
-<img src="https://github.com/linglongxin24/TablayoutRedDot/blob/master/screenshot/device-2017-12-06-091225.png" width="30%" height="30%"/>
+<img src="https://github.com/linglongxin24/TablayoutRedDot/blob/master/screenshot/device-2017-12-06-091225.png" width="50%" height="50%"/>
 </div>
 
 ## 1.主布局文件
